@@ -47,33 +47,32 @@
   
   .grille {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr;
     grid-gap: 10px 12px;
     /* alignement par défaut: stretch */
     align-items: stretch;
-  }
-  
+  }  
   .boite {
     width: 94%;
     margin: 0;
   }
   
-  @media screen and (max-device-width: 700px) {
+  @media screen and (min-device-width: 400px) {
     
     .grille {
       grid-template-columns: 1fr 1fr;
-    }   
-    
-  }
-
-  @media screen and (max-device-width: 400px) {
-    
-    .grille {
-      grid-template-columns: 1fr;
     } 
     
   }
+  
+  @media screen and (min-device-width: 700px) {
     
-}
+    .grille {
+      grid-template-columns: repeat(3, 1fr);
+    }   
+    
+  }
+    
+} /* Fin @supports (display: grid) */
 
 
