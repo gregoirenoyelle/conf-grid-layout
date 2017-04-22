@@ -3,8 +3,8 @@
   margin-right: 2.2%;
 }
 
-
 @media screen and (min-device-width: 701px) {
+
   .boite {
     width: 25.8%;
   }
@@ -14,9 +14,11 @@
   .boite:nth-of-type(3n+3) {
     margin-right: 0;
   }  
+
 }
 
 @media screen and (max-device-width: 700px) {
+
   .boite {
     width: 42.9%;
   }
@@ -28,13 +30,50 @@
   .boite:nth-of-type(2n+2) {
     margin-right: 0;
   }  
+
 }
 
 @media screen and (max-device-width: 400px) {
+
   .boite {
     width: 95%;
     float: none;
   }
+
+}
+
+/* Ajout des styles quand la valeur grid est supporté */
+@supports (display: grid) {
+  
+  .grille {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px 12px;
+    /* alignement par défaut: stretch */
+    align-items: stretch;
+  }
+  
+  .boite {
+    width: 94%;
+    margin: 0;
+  }
+  
+  @media screen and (max-device-width: 700px) {
+    
+    .grille {
+      grid-template-columns: 1fr 1fr;
+    }   
+    
+  }
+
+  @media screen and (max-device-width: 400px) {
+    
+    .grille {
+      grid-template-columns: 1fr;
+    } 
+    
+  }
+    
 }
 
 
