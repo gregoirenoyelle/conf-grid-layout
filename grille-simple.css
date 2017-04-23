@@ -3,7 +3,7 @@
   margin-right: 2.2%;
 }
 
-@media screen and (min-device-width: 701px) {
+@media screen and (min-width: 701px) {
 
   .boite {
     width: 25.8%;
@@ -17,7 +17,7 @@
 
 }
 
-@media screen and (max-device-width: 700px) {
+@media screen and (max-width: 700px) {
 
   .boite {
     width: 42.9%;
@@ -33,7 +33,7 @@
 
 }
 
-@media screen and (max-device-width: 400px) {
+@media screen and (max-width: 400px) {
 
   .boite {
     width: 95%;
@@ -57,7 +57,7 @@
     margin: 0;
   }
   
-  @media screen and (min-device-width: 400px) {
+  @media screen and (min-width: 400px) {
     
     .grille {
       grid-template-columns: 1fr 1fr;
@@ -65,7 +65,7 @@
     
   }
   
-  @media screen and (min-device-width: 700px) {
+  @media screen and (min-width: 700px) {
     
     .grille {
       grid-template-columns: repeat(3, 1fr);
