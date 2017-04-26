@@ -1,6 +1,8 @@
 .boite {
   float: left;
   margin-right: 2.2%;
+  border: 3px solid #c4c1bf;
+  padding: .2rem 9%;
 }
 
 @media screen and (min-width: 701px) {
