@@ -37,7 +37,7 @@
   .boite {
     width: 100%;
     float: none;
-    min-height: 0;
+    min-height: initial;
   }
 }
 
@@ -54,7 +54,7 @@
   .boite {
     width: 100%;
     margin: 0;
-    min-height: 0;
+    min-height: initial;
   }
   
   @media screen and (min-width: 400px) {
