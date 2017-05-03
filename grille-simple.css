@@ -14,7 +14,7 @@
     clear: left;
   }
   .boite:nth-of-type(3n+3) {
-    margin-right: 0;
+    margin-right: initial;
   }  
 }
 
@@ -29,7 +29,7 @@
   }
 
   .boite:nth-of-type(2n+2) {
-    margin-right: 0;
+    margin-right: initial;
   }  
 }
 
@@ -46,14 +46,14 @@
   
   .grille {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
-    grid-gap: 10px 12px;
+    grid-template-columns: repeat(auto-fill, minmax(24rem, 1fr));
+    grid-gap: 1rem;
     /* alignement par défaut: stretch */
     align-items: stretch;
   }  
   .boite {
-    width: 100%;
-    margin: 0;
+    width: initial;
+    margin: initial;
     min-height: initial;
   }
       
