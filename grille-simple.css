@@ -30,3 +30,7 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1rem;
 }
+
+.grille section:nth-child(1) {
+    grid-column: 1 / 3 ;
+}
