@@ -45,3 +45,8 @@ body {
     grid-row: 6 / span 2;
 }
 
+.span2 {
+    grid-column-end: span 2;
+    grid-row-end: span 2;
+}
+
