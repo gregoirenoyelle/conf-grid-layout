@@ -35,3 +35,13 @@ body {
     grid-gap: 1rem;
 }
 
+.white {
+    grid-column: 1 / -1;
+    grid-row: 3;
+}
+
+.black {
+    grid-column: 1 / -1;
+    grid-row: 6 / span 2;
+}
+
