@@ -19,10 +19,9 @@ body {
 
 .grille section {
     border-radius: 0.5rem;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;   
+    display: grid;
+    justify-items: center;
+    align-items: center;
 }
 
 
