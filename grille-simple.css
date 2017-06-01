@@ -49,8 +49,10 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(24rem, 1fr));
     grid-gap: 1rem;
+    grid-auto-rows: minmax(30rem, auto);
     /* alignement par défaut: stretch */
-    align-items: stretch;
+    align-items: start;
+    grid-auto-flow: dense;
   }  
   .boite {
     width: initial;
