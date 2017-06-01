@@ -49,15 +49,20 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(24rem, 1fr));
     grid-gap: 1rem;
-    grid-auto-rows: minmax(30rem, auto);
-    /* alignement par défaut: stretch */
     align-items: start;
+    /* alignement par défaut: stretch */
     grid-auto-flow: dense;
   }  
+  
   .boite {
     width: initial;
     margin: initial;
     min-height: initial;
+  }
+
+  .boite:nth-child(2) {
+    grid-column: 1 / -1;
+    background-color: #d1d1cf;
   }
       
 } /* Fin @supports (display: grid) */
