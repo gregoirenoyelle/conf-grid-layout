@@ -26,38 +26,37 @@ body {
 }
 
 /* Grid Layout */
-/* Création d'une grille de 12 colonnes */
+/* Création d'une grille de 6 colonnes */
 
 .grille {
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-gap: 1rem;    
-    grid-template-rows: auto;
-
+    grid-gap: 1rem;   
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 12rem);
+    grid-template-areas:
+    "tete tete tete tete tete tete"
+    "gauche contenu contenu contenu contenu droite"
+    "gauche contenu contenu contenu contenu droite"
+    "pied pied pied pied pied pied";
 }
 
 
 .zone-entete {
-    grid-column: initial;
-    grid-row-end: initial;
+    grid-area: tete;
 }
 
 .zone-barre-laterale-gauche {
-    grid-column: initial;
-    grid-row: initial;
+    grid-area: gauche;
 }
 
 .zone-contenu {
-    grid-column: initial;
-    grid-row: initial;
+    grid-area: contenu;
 }
 
 .zone-barre-laterale-droite {
-    grid-column: initial;
-    grid-row: initial;
+    grid-area: droite
 }
 
 .zone-pied-page {
-    grid-column: initial; 
-    grid-row: initial; 
+    grid-area: pied;
 }
