@@ -1,9 +1,19 @@
-# Grilles CSS
+## Exo 2 Grilles Zone
 
-Voici plusieurs expérimentations sur les méthodes pour construire des grilles CSS. Changer de branche pour voir les différentes approches. 
+Depuis la branche **grille_zone_base**.
 
-* branche grille_float: CSS avec Float
-* branche grille_flex: CSS avec Flex
-* branche grille_grid: CSS avec Grid 
+### Détail de l'exercice
 
-Pour la branche avec Grid, c'est @supports qui est utilisé pour isoler les CSS quand le navigateur ne supporte pas Grid Layout.
+* Partir de la branche grille_zone_base.
+* Créer une page complète avec les zones suivantes avec `grid-template-areas`.
+    * en-tête
+    * zone principale avec une barre latérale de chaque côté et le contenu au milieu
+    * pied de page
+    * tenir compte des zones ignorées.
+* Pour les petits écrans (800px maximum), réorganiser les blocs en servant de la capture. **Attention**, l'ordre des éléments a changé.
+* Pour les tout petits écrans (500px maximum), tout passer une seule colonne.
+
+
+### Notes pour l'exercice
+
+* Ajout de `grid-auto-rows` pour la création des rangées automatiques pour les petits écrans. 
