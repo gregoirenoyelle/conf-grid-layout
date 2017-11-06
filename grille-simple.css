@@ -49,7 +49,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(24rem, 1fr));
     grid-gap: 1rem;
-    align-items: start;
+
     /* alignement par défaut: stretch */
     grid-auto-flow: dense;
   }  
