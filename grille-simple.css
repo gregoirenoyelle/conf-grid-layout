@@ -21,7 +21,7 @@ body {
     border-radius: 0.5rem;
 }
 
-/* Grille */
+/* Grille sur parent */
 
 
 .grille {
@@ -30,6 +30,8 @@ body {
     grid-auto-rows: minmax(10rem, 1fr);
     grid-gap: 1rem;
 }
+
+/* Grille sur enfant */
 
 .grille section {
     display: grid;
