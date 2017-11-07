@@ -43,7 +43,7 @@
 }
 
 /* Ajout des styles quand la valeur grid est supporté */
-@supports (display: grid) {
+@supports (grid-area: auto) {
   
   .grille {
     display: grid;
