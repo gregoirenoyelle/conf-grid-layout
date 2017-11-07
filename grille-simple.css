@@ -43,14 +43,12 @@
 }
 
 /* Ajout des styles quand la valeur grid est supporté */
-@supports (display: grid) {
+@supports (grid-area: auto) {
   
   .grille {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(24rem, 1fr));
     grid-gap: 1rem;
-
-    /* alignement par défaut: stretch */
     grid-auto-flow: dense;
   }  
   
