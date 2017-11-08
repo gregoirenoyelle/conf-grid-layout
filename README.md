@@ -1,9 +1,5 @@
-# Grilles CSS
+# Présentation Grid Layout CSS 
 
-Voici plusieurs expérimentations sur les méthodes pour construire des grilles CSS. Changer de branche pour voir les différentes approches. 
+Ce dépôt regroupe toutes les démonstration faites au [Meetup WP Paris du 10 novembre 2017](https://www.meetup.com/fr-FR/wordpress-ile-de-france/events/244251034/). 
 
-* branche grille_float: CSS avec Float
-* branche grille_flex: CSS avec Flex
-* branche grille_grid: CSS avec Grid 
-
-Pour la branche avec Grid, c'est @supports qui est utilisé pour isoler les CSS quand le navigateur ne supporte pas Grid Layout.
+Un [article plus complet](https://www.gregoirenoyelle.com/utiliser-grid-layout-css-theme-wordpress/) est présent sur mon site et d'autres sont en préparation. 
