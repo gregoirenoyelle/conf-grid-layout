@@ -1,19 +1,5 @@
-## Exo 2 Grilles Zone
+# Présentation Grid Layout CSS 
 
-Depuis la branche **grille_zone_base**.
+Ce dépôt regroupe toutes les démonstration faites au [Meetup WP Paris du 10 novembre 2017](https://www.meetup.com/fr-FR/wordpress-ile-de-france/events/244251034/). 
 
-### Détail de l'exercice
-
-* Partir de la branche grille_zone_base.
-* Créer une page complète avec les zones suivantes avec `grid-template-areas`.
-    * en-tête
-    * zone principale avec une barre latérale de chaque côté et le contenu au milieu
-    * pied de page
-    * tenir compte des zones ignorées.
-* Pour les petits écrans (800px maximum), réorganiser les blocs en servant de la capture. **Attention**, l'ordre des éléments a changé.
-* Pour les tout petits écrans (500px maximum), tout passer une seule colonne.
-
-
-### Notes pour l'exercice
-
-* Ajout de `grid-auto-rows` pour la création des rangées automatiques pour les petits écrans. 
+Un [article plus complet](https://www.gregoirenoyelle.com/utiliser-grid-layout-css-theme-wordpress/) est présent sur mon site et d'autres sont en préparation. 
