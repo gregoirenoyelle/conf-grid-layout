@@ -5,6 +5,10 @@
   border: 8px solid #e4e4e4;
 }
 
+.pagination {
+  clear: both;
+}
+
 
 @media screen and (min-width: 701px) {
   .boite {
@@ -52,6 +56,11 @@
     /* alignement par défaut: stretch */
     align-items: stretch;
   }  
+
+  .breadcrumb,
+  .pagination {
+    grid-column: 1 / -1;
+  }
   .boite {
     width: initial;
     margin: initial;
