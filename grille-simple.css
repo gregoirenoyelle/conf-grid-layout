@@ -21,3 +21,11 @@ body {
     border-radius: 0.5rem;
     padding: 2rem 1rem;
 }
+
+
+/* Style pour Grid Layout */
+
+.grille {
+    display: grid;
+    grid-template-columns: 1fr;
+}
